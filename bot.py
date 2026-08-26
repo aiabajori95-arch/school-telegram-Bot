@@ -1,4 +1,4 @@
-import os
+
 from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes
 
@@ -18,5 +18,4 @@ def main():
     print("Bot is running...")
     app.run_polling()
 
-if __name__ == "__main__":
-    main()
+if __name__ == "__main__
